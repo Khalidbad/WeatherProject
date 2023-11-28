@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    
+</head>
+<body>
+    <form action="/" method="post">
+        <label for="city">Ville :</label>
+        <input type="text" id="city" name="city" required>
+        <input type="submit" value="Rechercher">
+    </form>
+    <h1>Weather Dashboard</h1>
+
+    <!-- Display the Matplotlib plot -->
+    <img src="data:image/png;base64,{{ V }}" alt="Temperature and Humidity Chart">
+
+</body>
+</html>
